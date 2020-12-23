@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from '../logo2.jpg'
 
 const Header = () => {
     return(
         <header>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/1/1c/DC_Comics_logo.png' alt="logo"/>
+            <img src={logo} alt="logo"/>
         </header>
     );
 }

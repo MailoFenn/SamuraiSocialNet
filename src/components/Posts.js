@@ -1,14 +1,13 @@
 import React from 'react';
+import Post from "./Post";
+import NewPost from "./NewPost";
 
 const Posts = () => {
     return(
         <div className='posts'>
             <div className='heading'>My posts</div>
-            <div className='new-post'>
-                <textarea className='comment-new-post' placeholder="What's up, Samurai?" />
-            </div>
-            <div>Post 1</div>
-            <div>Post 2</div>
+            <NewPost />
+            <Post />
         </div>
     );
 }

@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Roboto, Arial, sans-serif;
+    background-color: #6f6f7c;
 }
 
 .App {
@@ -18,26 +19,37 @@ html, body {
 }
 
 header {
-    background-color: #15cd69;
+    background-color: #ede902;
     grid-area: h;
     padding-left: 70px;
+    display: flex;
+    align-content: center;
 }
 
 header > img {
     height: 100px;
+    border-radius: 50%;
+    margin: 10px 0;
 }
 
 nav {
-    background-color: #15cd69;
+    background-color: #ede902;
     grid-area: n;
-    color: #dffff2;
+    color: #1b170c;
     font-size: 18pt;
     padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav > div {
+    margin: 15px 0;
 }
 
 .main {
     grid-area: m;
-    color: #454954;
+    color: #1d1e21;
 }
 
 .bg {
@@ -72,11 +84,44 @@ nav {
     margin-bottom: 20px;
 }
 
+.new-post {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
 .comment-new-post {
-    width: 500px;
-    height: 100px;
+    width: 100%;
+    height: 50px;
     font-family: Roboto, Arial, sans-serif;
     font-size: 12pt;
     padding: 10px;
     resize: none;
+    border: none;
+    background-color: #c8cdcb;
+    color: #757575;
+}
+
+.send {
+    margin: 10px -20px;
+    border: none;
+    background-color: #ede902;
+    width: 80px;
+    height: 30px;
+    color: #1b170c;
+    align-self: flex-end;
+}
+
+.post {
+    display: flex;
+    min-height: 70px;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.avatar-min {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 30px;
 }
