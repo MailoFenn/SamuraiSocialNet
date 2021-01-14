@@ -11,3 +11,12 @@
      border-radius: 50%;
      margin-right: 30px;
  }
+
+.like {
+    margin-top: 20px;
+}
+
+.likeImage {
+    width: 14px;
+    height: auto;
+}

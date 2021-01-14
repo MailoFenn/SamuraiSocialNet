@@ -8,7 +8,9 @@ const AllPosts = () => {
         <div className={css.posts}>
             <div className={css.heading}>My posts</div>
             <NewPost />
-            <Post />
+            <Post like={`11`} postText={`Wake fucking up, Samurai.`} />
+            <Post like={`56`} postText={`We have a city to burn!`}/>
+            <Post like={`42`} postText={`Hello, I'm Johny!`}/>
         </div>
     );
 }

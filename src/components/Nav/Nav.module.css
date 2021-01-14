@@ -1,7 +1,6 @@
 nav {
     background-color: #ede902;
     grid-area: n;
-    color: #1b170c;
     font-size: 18pt;
     padding-top: 40px;
     display: flex;
@@ -11,4 +10,9 @@ nav {
 
 nav > div {
     margin: 15px 0;
+}
+
+a {
+    color: #1b170c;
+    text-decoration: none;
 }
