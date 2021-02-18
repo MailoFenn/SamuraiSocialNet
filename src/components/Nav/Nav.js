@@ -6,19 +6,19 @@ const Nav = () => {
     return(
         <nav>
             <div>
-                <NavLink to={`profile`}>Profile</NavLink>
+                <NavLink to={`/profile`}>Profile</NavLink>
             </div>
             <div>
-                <NavLink to={`messages`}>Massage</NavLink>
+                <NavLink to={`/messages`}>Massage</NavLink>
             </div>
             <div>
-                <NavLink to={`news`}>News</NavLink>
+                <NavLink to={`/news`}>News</NavLink>
             </div>
             <div>
-                <NavLink to={`music`}>Music</NavLink>
+                <NavLink to={`/music`}>Music</NavLink>
             </div>
             <div>
-                <NavLink to={`setting`}>Setting</NavLink>
+                <NavLink to={`/setting`}>Setting</NavLink>
             </div>
         </nav>
     );

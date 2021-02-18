@@ -1,0 +1,22 @@
+.avatarMin {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.dialogItem {
+    margin: 30px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.userName {
+    font-size: 20px;
+    margin: 0;
+}
+
+.lastMessage {
+    font-size: 15px;
+    color: #2b2b2d;
+}

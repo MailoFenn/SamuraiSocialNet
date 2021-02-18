@@ -6,3 +6,25 @@
 .bg {
     max-width: 100%;
 }
+
+.dialogs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.dialogList {
+    flex-grow: 1;
+    border-right: 1px solid black;
+}
+
+.messagesList {
+    flex-grow: 3;
+    padding: 20px;
+}
