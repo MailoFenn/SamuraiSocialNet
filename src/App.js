@@ -11,8 +11,8 @@ import {BrowserRouter, Route} from 'react-router-dom';
 function App() {
     return (
         <BrowserRouter>
+            <Header/>
             <div className="App">
-                <Header/>
                 <Nav/>
                 <div className='content'>
                     <Route path={`/messages`} component={Messages}/>
