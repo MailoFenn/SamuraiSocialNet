@@ -5,10 +5,22 @@ header {
     display: flex;
     align-content: center;
     max-height: 50px;
+    position: relative;
+}
+
+header:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    background: url("https://www.cyberpunk.net/build/images/home/razor-top-black-5ce84ff9.svg") repeat-x top;
+    height: 40px;
 }
 
 header > img {
     height: 55px;
     transform: rotate(-5deg);
     margin: 20px 0 10px;
+    z-index: 99;
 }
