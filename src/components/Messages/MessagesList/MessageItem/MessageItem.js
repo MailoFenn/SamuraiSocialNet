@@ -9,8 +9,8 @@ const MessageItem = (props) => {
         className = css.companionMessageItem;
     }
     return (
-        <div className={className}>
-            <p className={css.messageText}>Hey, V, how are you?</p>
+        <div className={className} >
+            <p className={css.messageText}>{props.text}</p>
             <time>16:55</time>
         </div>
     );

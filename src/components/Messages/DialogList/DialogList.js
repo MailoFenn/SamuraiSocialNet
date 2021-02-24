@@ -1,13 +1,12 @@
 import React from 'react';
 import DialogItem from "./DialogItem/DialogItem";
 
-
 const DialogList = (props) => {
-        return (
-            <div className={props.className}>
-                    <DialogItem id='1'/>
-                    <DialogItem id='2'/>
-                    <DialogItem id='3'/>
+    let dialogItems = props.data.map(item => <DialogItem id={item.id} name={item.name}/>)
+
+    return (
+        <div className={props.className}>
+            {dialogItems}
         </div>
     );
 }
